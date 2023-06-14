@@ -18,6 +18,7 @@ module.exports = {
     // force ESLint to resolve your project configuration relative to the folder where .eslintrc.js is located.
     tsconfigRootDir: __dirname,
     project: './tsconfig.json',
+    extraFileExtensions: ['.css'],
   },
 
   plugins: ['react', '@typescript-eslint', 'prettier'],
